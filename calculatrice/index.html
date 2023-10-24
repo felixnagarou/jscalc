@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <main>
+        <table id="calculatrice">
+            <tr>
+                <td><button id="1">1</button></td>
+                <td><button id="2">2</button></td>
+                <td><button id="3">3</button></td>
+            </tr>
+            <tr>
+                <td><button id="4">4</button></td>
+                <td><button id="5">5</button></td>
+                <td><button id="6">6</button></td>
+            </tr>
+            <tr>
+                <td><button id="7">7</button></td>
+                <td><button id="8">8</button></td>
+                <td><button id="9">9</button></td>
+            </tr>
+            <tr>
+                <td><button id="+" onclick="addition()">+</button></td>
+                <td><button id="-" onclick="soustraction()">-</button></td>
+                <td><button id="/" onclick="division()">/</button></td>
+            </tr>
+            <tr>
+                <td><button id="x" onclick="multiply()">x</button></td>
+                <td><button id="equals" onclick="isEqual()">equals</button></td>
+                <td><button id="pow" onclick="pow()">pow</button></td>
+            </tr>
+            <tr>
+                <td><button id="sqrt" onclick="sqrt()">sqrt</button></td>
+                <td><button id="del" onclick="del()">del</button></td>
+                <td><button id="clear" onclick="clear()">clear</button></td>
+            </tr>
+            <tr>
+                <td><button id=",">,</button></td>
+                <td><button id="=">=</button></td>
+            </tr>
+        </table>
+    </main>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
